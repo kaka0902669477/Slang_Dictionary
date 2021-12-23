@@ -212,4 +212,12 @@ public class FindSWFrame extends JFrame implements ActionListener, TableModelLis
             model.removeRow(i);
         }
     }
+
+    void fix() {
+        int rowCount = model.getRowCount();
+        // Remove rows one by one from the end of the table
+        for (int i = rowCount - 1; i >= 0; i--) {
+            model.removeRow(i);
+        }
+    }
 }
