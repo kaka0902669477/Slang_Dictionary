@@ -139,11 +139,5 @@ public class DeleteFrame extends JFrame implements ActionListener, ListSelection
         }
     }
 
-    public void addRow() {
-        int size = data.length;
-        for (int i = 0; i < size; i++) {
-            String ss[] = data[i];
-            model.addRow(ss);
-        }
-    }
+  
 }
