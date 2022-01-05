@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="fitus.AddSlangWord">
+  <grid id="27dc6" binding="panel" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="12" left="12" bottom="12" right="12"/>
+    <constraints>
+      <xy x="22" y="20" width="498" height="403"/>
+    </constraints>
+    <properties>
+      <font name="Cambria" size="36" style="1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="55b5f" class="javax.swing.JLabel" binding="label_add_slangw">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Cambria" size="36" style="1"/>
+          <text value="Thêm slang word"/>
+        </properties>
+      </component>
+      <component id="92085" class="javax.swing.JLabel" binding="label_slangw">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Cambria" size="14"/>
+          <text value="Slang word"/>
+        </properties>
+      </component>
+      <component id="9be35" class="javax.swing.JTextField" binding="textf_slangw">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="56547" class="javax.swing.JLabel" binding="label_mean">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Cambria" size="14"/>
+          <text value="Nghĩa của slang word"/>
+        </properties>
+      </component>
+      <component id="7dd50" class="javax.swing.JTextField" binding="textf_mean">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <grid id="967bc" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="2">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="78c0d" class="javax.swing.JButton" binding="button_back">
+            <constraints/>
+            <properties>
+              <text value="Về menu"/>
+            </properties>
+          </component>
+          <component id="28f39" class="javax.swing.JButton" binding="button_edit">
+            <constraints/>
+            <properties>
+              <text value="Chỉnh sửa"/>
+            </properties>
+          </component>
+          <component id="d8574" class="javax.swing.JButton" binding="button_add">
+            <constraints/>
+            <properties>
+              <text value="Thêm"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
