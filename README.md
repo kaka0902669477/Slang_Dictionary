@@ -2,9 +2,9 @@
 
 File txt:
 
-slang.txt:file data ban đầu
+slang.txt: file data ban đầu
 
-history.txt:lưu lại lịch sử tìm kiếm
+history.txt: lưu lại lịch sử tìm kiếm
 
 original.txt: file data gốc cho chức năng reset
 
@@ -21,6 +21,7 @@ Tự đánh giá điểm cho từng chức năng
 10. Chức năng đố vui, chương trình hiển thị 1 definition, với 4 slang words đáp án cho người dùng chọn (hoàn thành 100%)
 
 Đã hoàn thành hết chức năng
+
 Tự đánh giá điểm: 100/100
 
 Tham khảo
