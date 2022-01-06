@@ -1,8 +1,11 @@
 # Slang_Dictionary
 
 File txt:
+
 slang.txt:file data ban đầu
+
 history.txt:lưu lại lịch sử tìm kiếm
+
 original.txt: file data gốc cho chức năng reset
 
 Tự đánh giá điểm cho từng chức năng
@@ -21,6 +24,7 @@ Tự đánh giá điểm cho từng chức năng
 Tự đánh giá điểm: 100/100
 
 Tham khảo
+
 https://viettuts.vn/java-collection/treemap-trong-java
 
 https://www.geeksforgeeks.org/treemap-in-java/
